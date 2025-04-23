@@ -2,8 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
     <title>{% block title %}Mi App{% endblock %}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link 
+     rel= "stylesheet"
+     href = "../static/css/styles.css"
+    />
+
 </head>
 <body>
     <header>
@@ -12,9 +17,8 @@
         <nav>
             <a href="/">Inicio</a> |
             <a href="/productos">Productos</a> |
-            <a href="/usuarios">Usuarios</a> |
-            <a href="/usuarios">Dastas heavy code</a>
-
+            <a href="/usuarios">Usuarios</a>
+            
         </nav>
 
     </header>
