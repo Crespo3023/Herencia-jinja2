@@ -6,6 +6,7 @@
 
 <h2>Lista de Productos</h2>
 
+
 <table class="table-design">
     <thead>
         <tr>
@@ -15,22 +16,18 @@
         </tr>
     </thead>
     <tbody>
+        {% for Producto, Precio in lista_combinada %}
         <tr>
-            <td>Telefono</td>
-            <td>$100.00</td>
-            <td>Descripción del producto 1</td>
-        </tr>
-        <tr>
-            <td>Laptop</td>
-            <td>$200.00</td>
-            <td>Descripción del producto 2</td>
-        </tr>
-        <tr>
-            <td>Ipad</td>
-            <td>$300.00</td>
-            <td>Descripción del producto 3</td>
-        </tr>
+            <td>{{ Producto }}</td>
+            <td>{{Precio}}</td>
+            <td>Descripción del producto</td>
+
+        </tr>     
+        {% endfor %}
     </tbody>
 </table>
+    
+
+
 
 {% endblock %}
