@@ -5,10 +5,32 @@
 {% block content %}
 
 <h2>Lista de Productos</h2>
-<ul>
-    {% for producto in lista_productos %}
-        <li>{{ producto }}</li>
-    {% endfor %}
-</ul>
+
+<table class="table-design">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Telefono</td>
+            <td>$100.00</td>
+            <td>Descripción del producto 1</td>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>$200.00</td>
+            <td>Descripción del producto 2</td>
+        </tr>
+        <tr>
+            <td>Ipad</td>
+            <td>$300.00</td>
+            <td>Descripción del producto 3</td>
+        </tr>
+    </tbody>
+</table>
 
 {% endblock %}

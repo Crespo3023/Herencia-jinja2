@@ -1,0 +1,80 @@
+.body {
+    background-color: #6e6e6e;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  
+  /* Table Styles for Products */
+  .table-design {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .table-design th,
+  .table-design td {
+    border: 1px solid #b9b9b9;
+    padding: 12px;
+  }
+  
+  .table-design th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .table-design tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-design tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table-design caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+  }
+  
+  /* User List Styles */
+  ul.user-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  ul.user-list li {
+    background-color: #d9d9d9;
+    margin-bottom: 10px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+  }
+  
+  ul.user-list li:hover {
+    background-color: #c1c1c1;
+  }
+  
