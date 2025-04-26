@@ -4,12 +4,22 @@
 
 {% block content %}
 <h2>Lista de Usuarios</h2>
-<ul>
+
+<ul class="list-group list-group-flush">
+    
+        
+   <h5> <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+        Nombres y apellidos de los usuarios
+      </button>
+    </h5>
+    
     {% for usuario in usuarios %}
     
-        <li> {{ usuario|upper }}</li>
+    <button type="button" class="list-group-item list-group-item-action">{{ usuario|upper }}</button>
 
     {% endfor %}
 </ul>
+
+
 
 {% endblock %}

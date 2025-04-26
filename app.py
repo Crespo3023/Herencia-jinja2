@@ -19,7 +19,7 @@ def lista_productos():
 
 @app.route('/usuarios')
 def usuarios():
-    lista_usuarios = ['Jhon', 'Luis', 'Carlos', 'Elena', 'Ana', 'Pepe']
+    lista_usuarios = ['Jhon Doe', 'Luis Medina', 'Carlos Perez', 'Elena Hernandez', 'Ana Cortes', 'Pepe Aguilar']
     
     return render_template('user.html', usuarios=lista_usuarios)
 
